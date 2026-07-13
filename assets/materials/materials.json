@@ -1,0 +1,42 @@
+[
+  {
+    "name": "brick",
+    "image": "assets/materials/brick.jpg"
+  },
+  {
+    "name": "concrete",
+    "image": "assets/materials/concrete.jpg"
+  },
+  {
+    "name": "glass",
+    "image": "assets/materials/glass.jpg"
+  },
+  {
+    "name": "metal",
+    "image": "assets/materials/metal.jpg"
+  },
+  {
+    "name": "stone",
+    "image": "assets/materials/stone.jpg"
+  },
+  {
+    "name": "stucco",
+    "image": "assets/materials/stucco.jpg"
+  },
+  {
+    "name": "terracotta",
+    "image": "assets/materials/terracotta.jpg"
+  },
+  {
+    "name": "tile",
+    "image": "assets/materials/tile.jpg"
+  },
+  {
+    "name": "wood",
+    "image": "assets/materials/wood.jpg"
+  },
+  {
+    "name": "plastic",
+    "image": "assets/materials/plastic.jpg"
+  }
+]

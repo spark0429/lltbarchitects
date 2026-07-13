@@ -1,0 +1,6 @@
+﻿brick: Bricks 104 / https://ambientcg.com/a/Bricks104 / ambientCG CC0
+concrete: Concrete 034 / https://ambientcg.com/a/Concrete034 / ambientCG CC0
+metal: Metal 063 / https://ambientcg.com/a/Metal063 / ambientCG CC0
+wood: Wood 095 / https://ambientcg.com/a/Wood095 / ambientCG CC0
+stone: Rock 064 / https://ambientcg.com/a/Rock064 / ambientCG CC0
+stucco: Plaster 001 / https://ambientcg.com/a/Plaster001 / ambientCG CC0

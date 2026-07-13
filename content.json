@@ -1,0 +1,102 @@
+{
+  "ui": {
+    "chooseColor": "choose your color",
+    "chooseMaterial": "choose your material",
+    "newMaterial": "new material",
+    "homeLabel": "home",
+    "nav": {
+      "about": "about",
+      "people": "people",
+      "projects": "project",
+      "contact": "contact"
+    },
+    "skip": "skip",
+    "backToProjects": "back to projects",
+    "previous": "previous",
+    "next": "next"
+  },
+  "about": {
+    "title": "about",
+    "lead": "tbd",
+    "cards": [
+      {
+        "title": "tbd",
+        "text": "tbd"
+      }
+    ]
+  },
+  "people": {
+    "title": "people",
+    "lead": "tbd",
+    "people": [
+      {
+        "position": "tbd",
+        "name": "tbd",
+        "romanName": "tbd",
+        "credentials": "tbd",
+        "groups": [
+          {
+            "title": "tbd",
+            "items": [
+              "tbd"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "project",
+    "lead": "Selected works can be replaced here as the studio grows.",
+    "projects": [
+      {
+        "title": "House with a Narrow Garden",
+        "year": "2026",
+        "location": "Seoul",
+        "description": "A compact house organized around a long planted edge.",
+        "image": "",
+        "id": "project-01",
+        "details": "A compact house organized around a long planted edge.\n\nAdd the full project story, site context, design process, materials, and construction notes here.",
+        "images": []
+      },
+      {
+        "title": "Material Room",
+        "year": "2025",
+        "location": "Gyeonggi",
+        "description": "Interior renovation focused on texture, storage, and warm light.",
+        "image": "",
+        "id": "project-02",
+        "details": "Interior renovation focused on texture, storage, and warm light.\n\nAdd the full project story, site context, design process, materials, and construction notes here.",
+        "images": []
+      },
+      {
+        "title": "Small Corner Building",
+        "year": "2024",
+        "location": "Incheon",
+        "description": "A mixed-use corner volume with a restrained street face.",
+        "image": "",
+        "id": "project-03",
+        "details": "A mixed-use corner volume with a restrained street face.\n\nAdd the full project story, site context, design process, materials, and construction notes here.",
+        "images": []
+      }
+    ]
+  },
+  "contact": {
+    "title": "contact",
+    "lead": "For project inquiries, collaborations, or studio visits.",
+    "contact": [
+      {
+        "title": "email",
+        "text": "hello@lltb.archi"
+      },
+      {
+        "title": "instagram",
+        "text": "@lltb.architects"
+      },
+      {
+        "title": "office",
+        "text": "Seoul, Korea"
+      }
+    ]
+  }
+}
