@@ -1,81 +1,179 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>lltb architects</title>
-    <meta name="description" content="lltb architects portfolio and studio website">
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+    <meta name="description" content="lltb architects. long live the building">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main class="site" style="--chosen-color: #8f1d1d; --chosen-color-soft: rgba(143, 29, 29, 0.36); --texture-a: #d8d1c5; --texture-b: #9f988e; --texture-c: rgba(255,255,255,0.34);">
-      <section class="builder is-hidden" aria-label="material builder">
-        <div class="builder-panel" data-step="color">
-          <p class="kicker">lltb material study</p>
-          <h1>choose your color</h1>
-          <div class="swatch-grid color-grid" id="colorGrid" aria-label="color choices"></div>
-        </div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="lltb architects home">
+        <img src="assets/lltb-architects-logo.svg" alt="lltb architects">
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">about</a>
+        <a href="#people">people</a>
+        <a href="#works">works</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
 
-        <div class="builder-panel" data-step="material">
-          <p class="kicker">lltb material study</p>
-          <h1>choose your material</h1>
-          <div class="swatch-grid material-grid" id="materialGrid" aria-label="material choices"></div>
+    <main id="top">
+
+      <section class="about-panel" id="about" aria-labelledby="about-title">
+        <div class="about-copy">
+          <h2 id="about-title" class="sr-only">about lltb architects</h2>
+          <div class="statement" aria-label="lltb architects statement">
+            <p class="statement-en" lang="en">
+              <span>At lltb, we view architecture not as an extraordinary monument,</span>
+              <span>but as the most basic background for life.</span>
+              <span>We value long-lasting spaces over fast-changing scenes,</span>
+              <span>and honest order over flashy imagery.</span>
+              <span>By reading the existing context and carefully adding or subtracting</span>
+              <span>only what is necessary,</span>
+              <span>we seek ways for a building to truly endure</span>
+              <span>and live on as architecture.</span>
+            </p>
+            <p class="statement-ko" lang="ko">
+              <span>lltb는 건축을 특별한 대상이 아니라</span>
+              <span>삶을 담는 가장 기본적인 배경으로 바라봅니다.</span>
+              <span>빠르게 소비되는 장면보다 오래 머무는 공간,</span>
+              <span>화려한 이미지보다 단정한 질서를 중요하게 생각합니다.</span>
+              <span>우리는 기존의 맥락을 읽고,</span>
+              <span>필요한 만큼 덜어내고 더하며</span>
+              <span>건물이 건축으로 오래 살아갈 수 있는 방식을 찾습니다.</span>
+            </p>
+          </div>
         </div>
-        <button class="skip-button" id="skipButton" type="button">skip</button>
       </section>
 
-      <section class="logo-stage" aria-label="lltb navigation">
-        <button class="home-remix-button diagram-button" id="homeRemixButton" type="button" aria-label="new material"><span class="diagram-icon new-diagram" aria-hidden="true"></span><span class="sr-only">new material</span></button>
-        <div class="lltb-logo" id="lltbLogo" aria-label="main navigation">
-          <canvas class="logo-visible-fallback" id="logoFallbackCanvas" width="230" height="132" aria-hidden="true"></canvas>
-          <div class="logo-material-fill" aria-hidden="true"></div>
-          <div class="logo-hover-fill" data-hover-layer="about" aria-hidden="true"></div>
-          <div class="logo-hover-fill" data-hover-layer="people" aria-hidden="true"></div>
-          <div class="logo-hover-fill" data-hover-layer="projects" aria-hidden="true"></div>
-          <div class="logo-hover-fill" data-hover-layer="contact" aria-hidden="true"></div>
-          <nav class="logo-hit-nav" aria-label="main navigation">
-            <button class="logo-hit" data-section="about" data-glyph="l" aria-label="about"><span>about</span></button>
-            <button class="logo-hit" data-section="people" data-glyph="l" aria-label="people"><span>people</span></button>
-            <button class="logo-hit" data-section="projects" data-glyph="t" aria-label="project"><span>project</span></button>
-            <button class="logo-hit" data-section="contact" data-glyph="b" aria-label="contact"><span>contact</span></button>
-          </nav>
+      <section class="section people" id="people" aria-labelledby="people-title">
+        <div class="section-heading">
+          <h2 id="people-title">people</h2>
+        </div>
+        <div class="people-list">
+          <article>
+            <img class="portrait" src="assets/people-placeholder-01.svg" alt="000000 0000000 00 00">
+            <h3>000000 0000 000000000</h3>
+            <p class="role">000000 / 000000(0000), 0000000000000</p>
+
+            <h4>Experience</h4>
+            <p>0000.00 - 0000.00 ｜ 00000000 — 000000000000 · 000000000000 · 000000 0000000</p>
+            <p>0000.00 - 0000.00 ｜ 0000000000 — 000000000 0000 00</p>
+            <p>0000.00 - 0000.00 ｜ 000000000000 — 000000 0000</p>
+
+            <h4>Education &amp; License</h4>
+            <p>0000.00 ｜ 000000000000000 0000</p>
+            <p>0000.00 ｜ 000000 000000(0000) 0000</p>
+            <p>0000.00 ｜ 0000000000 000000 0000 (0.0000)</p>
+
+            <h4>Project Awards</h4>
+            <p>0000 ｜ 000 000 000000: 0000000 000000 — 00000000 000000000000 (0000 00 0000)</p>
+            <p>0000 ｜ 000 000 000000: 000000 &amp; 0000000000000 — 00000000 000000000000 (000000)</p>
+            <p>0000 ｜ 000 000 000000: 000000 &amp; 0000000000000 — 00000000 &amp; 0000000 (000000)</p>
+            <p>0000 ｜ 0000 000000 — 0000000 000000 (000000)</p>
+            <p>0000 ｜ 000 000 0000 — 000000 (000000)</p>
+            <p>0000 ｜ 000000 — 00000 00000 (00000000)</p>
+            <p>0000 ｜ 000000 00000000 — 0000000</p>
+            <p>0000 ｜ 000000000 000000 — 000000</p>
+            <p>0000 ｜ 00000 000000 00000000 — 0000</p>
+
+            <h4>Personal Awards</h4>
+            <p>0000 ｜ 0000000000 000000 000000 — 0000</p>
+            <p>0000 ｜ 000000000 000000 00000000 000000 — 000000</p>
+            <p>0000 ｜ 00000 000000 000000 000000 — 0000</p>
+            <p>0000 ｜ 000000 0000 — 0000</p>
+            <p>0000 ｜ 00000 0000 000000 — 000000</p>
+            <p>0000 ｜ 000000 00000000 000000 — 0000</p>
+            <p>0000 ｜ 00000 0000 0000 — 0000000</p>
+          </article>
+
+          <article>
+            <img class="portrait" src="assets/people-placeholder-02.svg" alt="000000 000000 00 00 00">
+            <h3>000000 0000 00000</h3>
+            <p class="role">000000 00</p>
+            <p>0000 0000 0000 0000</p>
+          </article>
         </div>
       </section>
 
-      <section class="portal" aria-hidden="true">
-        <div class="portal-letter">
-          <span id="portalGlyph">l</span>
-          <div class="window-stack" aria-hidden="true"></div>
+      <section class="section works" id="works" aria-labelledby="works-title">
+        <div class="section-heading">
+          <h2 id="works-title">works</h2>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card">
+            <a class="project-image" href="projects/project-01.html" aria-label="House with a Narrow Garden project page">
+              <img src="assets/projects/project-01.jpg" alt="">
+            </a>
+            <div class="project-text">
+              <p class="project-meta">2026 / Seoul</p>
+              <h3><a href="projects/project-01.html">House with a Narrow Garden</a></h3>
+              <p class="project-title-ko">좁은 정원을 가진 집</p>
+              <p>A compact house organized around a long planted edge.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-image" href="projects/project-02.html" aria-label="Material Room project page">
+              <img src="assets/projects/project-02.jpg" alt="">
+            </a>
+            <div class="project-text">
+              <p class="project-meta">2025 / Gyeonggi</p>
+              <h3><a href="projects/project-02.html">Material Room</a></h3>
+              <p class="project-title-ko">재료의 방</p>
+              <p>Interior renovation focused on proportion, storage, and material clarity.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-image" href="projects/project-03.html" aria-label="Small Corner Building project page">
+              <img src="assets/projects/project-03.jpg" alt="">
+            </a>
+            <div class="project-text">
+              <p class="project-meta">2024 / Incheon</p>
+              <h3><a href="projects/project-03.html">Small Corner Building</a></h3>
+              <p class="project-title-ko">작은 모퉁이 건물</p>
+              <p>A restrained corner volume for a mixed-use neighborhood building.</p>
+            </div>
+          </article>
         </div>
       </section>
 
-      <section class="content-view is-hidden" aria-label="content">
-
-        <aside class="section-rail" aria-label="section navigation">
-          <button class="home-button diagram-button" id="homeButton" type="button" aria-label="home">
-            <span class="diagram-icon home-diagram" aria-hidden="true"></span>
-          </button>
-          <button data-section="about">l</button>
-          <button data-section="people">l</button>
-          <button data-section="projects">t</button>
-          <button data-section="contact">b</button>
-          <button class="remix-button diagram-button" id="remixButton" type="button" aria-label="new material"><span class="diagram-icon new-diagram" aria-hidden="true"></span><span class="sr-only">new material</span></button>
-        </aside>
-
-        <article class="content-frame">
-          <header class="content-head">
-            <p class="kicker">lltb architects</p>
-            <h2 id="contentTitle">about</h2>
-          </header>
-          <div class="content-body" id="contentBody"></div>
-        </article>
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <h2 id="contact-title">contact</h2>
+        </div>
+        <div class="contact-grid">
+          <address class="contact-list">
+            <a href="mailto:000000000000000000000000000">000000000000000000000000000</a>
+            <a href="tel:000-0000-0000">000-0000-0000</a>
+            <a class="instagram-link" href="https://www.instagram.com/00000000000000" target="_blank" rel="noreferrer" aria-label="000000000000 000000000">
+              <span class="instagram-mark" aria-hidden="true"></span>
+              <span>@00000000000000</span>
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=000000000000000000000000000000000000" target="_blank" rel="noreferrer">
+              000 00000 000000 000000000000 00 000000000 00000
+            </a>
+          </address>
+          <iframe class="map" title="lltb architects location on Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=000000000000000000000000000000000000&output=embed"></iframe>
+        </div>
       </section>
     </main>
 
+    <footer class="site-footer">
+      <span>lltb architects</span>
+      <span>long live the building</span>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
+
+
+
 
 
 
